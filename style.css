@@ -1,0 +1,665 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color:#FFFDB5;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    backdrop-filter:blur(50px);
+}
+#logo{
+    border: none;
+    width: 100PX;
+    height: 60PX;
+    margin-left:45px;
+    border-radius: 50px;
+}
+.menu{
+    border: none;
+    margin-left:900px;
+    margin-right: 20px;
+    width:40% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+}
+
+.menu a{
+    text-decoration:none ;
+    color: #A02334;
+    font-weight: 600;
+}
+
+#logo img{
+    width:100% ;
+    height:100% ;
+    border-radius: 40%;
+}
+
+#check{
+    display: none;
+    
+}
+
+.icons{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: blue;
+    position: absolute;
+    right: 5%;
+    display:block ;
+    cursor: pointer;
+    /* width: 20%;
+    height: 30%; */
+    display:none ;
+}
+.icons #menuIcon{
+    /* width: 100%; */
+}
+
+#firstPanel{
+    background-image:url(images/mqqOOWYvRP-0xfLJXyLDug.webp);
+    width: 100%;
+    height: 95vh ;
+    background-size: cover;
+}
+
+.heroSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    height:100% ;
+}
+.heroHeading{
+  font-size: 50px;
+  color: aliceblue;
+  opacity: 0.9;
+  font-weight:800;
+  font-family:"Pacifico", system-ui;
+}
+
+#heroMessage{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    background-color: rgb(109, 65, 21);
+    font-family:Itim;
+    background-blend-mode: lighten;
+    border-radius: 3px;
+    font-weight: 200;
+}
+h1{
+    text-align: center;
+}
+#aboutCoffee{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #FFF7D1;
+    display: nowrap;
+}
+
+.sectionHead{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sectionHead h1{
+    font-family: "Matemasie", sans-serif;
+    color: #8e3f06;
+    margin-bottom: 20px;
+}
+
+.sectionHead span{
+    font-family:Itim;
+    color: #7c5335;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.cofeimgPara{
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+   flex-wrap: nowrap;
+}
+.cofeImg{
+    width: 30%;
+    height:600px ;
+}
+.cofeImg img{
+    width:100% ;
+    height: 80%;
+    /* margin-left: 100px; */
+    align-items: center;
+
+}
+
+.cofePara{
+    width:30% ;
+
+}
+
+.cofePara p{
+  width: 100%;
+  /* margin-left: 120px; */
+  font-size: 19px;
+  line-height:25px ;
+  color: #8d5832;
+  font-weight: 700;
+  font-family:Itim;
+}
+#ourMenu{
+    margin-top: 10px;
+    width: 100%;
+    /* height: 100vh; */
+    background-color:#FFECC8;
+}
+.sectionHead2{
+    text-align: center;
+}
+
+.sectionHead2 h1{
+     font-family: "Matemasie", sans-serif;
+     margin-bottom: 10px;
+     color: #ffc265;
+}
+
+.sectionHead2 span{
+    font-family:Itim;
+    font-size: 1.5rem;
+    color: #ffb03a;
+    font-weight: 500;
+}
+
+.menuItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 58px;
+}
+
+.bakeryItems{
+    width :300px;
+    text-align: center;
+}
+
+.bakeryItems img{
+    width: 100%;
+    height: 85%;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.bakeryItems a{
+    font-size: 18px;
+    text-decoration: none;
+    border: solid;
+    color: #ffffff;
+    border-color: #ffac2f;
+    background-color:#ffac2f ;
+    border-radius: 30px;
+    padding: 7px;
+    font-weight: 500;
+    font-family: Acme;
+}
+
+#doorSteps{
+    width: 100% ;
+    padding-top: 50px;
+    /* height: 100vh; */
+    align-items: center;
+
+}
+
+.sectionHead3{
+    font-family: "Matemasie", sans-serif;
+    color: #cf5f77;
+}
+
+.doorstepFoods{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.deliveryFood{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family:Itim;
+
+}
+
+.deliveryFood img{
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.deliveryFood p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff4d74;
+}
+
+.orderNow{
+    text-align: center;
+    margin-top:240px ;
+    padding: 5px;
+}
+
+.orderNow a{
+    padding: 7px;
+    text-decoration: none;
+    background-color: rgb(83, 126, 255);
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.foot-panel1{
+    background-color:#ffd572;
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dbcdcd;
+}
+footer{
+    /* display:flexbox; */
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+ .foot-panel2{
+    /* height: 300px; */
+    background-color: #db8b56;
+    background-size:cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+ul{
+    margin-top: 30px;
+    line-height:29px ;
+    font-family:Itim;
+    font-size: 20px;
+    color: white;
+    
+}
+ul a{
+    display: block;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 17px;
+    font-family:Itim;
+   
+}
+#socialMed {
+    align-items: center;
+    line-height:29px ;
+}
+#socialMed span{
+    padding-left: 10px;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+.gallery{
+    margin-top: 34px;
+    font-size: 20px;
+    font-family:Itim;
+    /* display: flex; */
+    flex-wrap:wrap ;
+    width: 12%;
+}
+
+.galItems{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galImg{
+    width: 50px;
+}
+
+.galImg img{
+    width: 100%;
+}
+
+#brochure{
+    width: 19%;
+    margin-top: 27px;
+    font-size: 17px;
+    font-family:Itim;
+}
+
+#brochure p{
+    line-height: 20px;
+}
+
+#footLogo{
+    width: 48px;
+    margin-bottom: 2px;
+}
+
+#footLogo img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+#information{
+    margin-top: 1.3rem;
+    font-size: medium;
+}
+.infobox{
+    margin-bottom: 5px;
+}
+.infobox>span{
+    margin-left: 10px;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+
+@media(max-width:992px) {
+
+
+    nav {
+        width: 100%;
+    }
+    
+    nav #logo{
+        width: 10%;
+    }
+
+    nav #logo img{
+        width: 100%;
+        margin-left:-10px;
+        margin-right: 800px;
+    }
+
+    nav .menu{
+        /* display: none; */
+    }
+
+    .icons #menuIcon{
+        width: 100%;
+        display: block;
+        height: 100%;
+        color: #A02334;
+    }
+
+    .icons{
+        position: absolute;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #A02334;
+        margin-right: 20PX;
+        
+    }
+    #closeIcon{
+        display:none ;
+    }
+
+    #check:checked~.icons #menuIcon{
+        display:none ;
+    }
+    #check:checked~.icons #closeIcon{
+        display:block ;
+    }
+    
+    nav .menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:100% ;
+        left: 0;
+        width: 100%;
+        background-color:#FFFDB5;
+        display: none;
+        border: solid;
+        color: rgb(240, 221, 186);
+        margin-left:00px;
+        align-items: center;
+    }
+    nav .menu a{
+        display: block;
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 1.5rem 0px;
+        color: rgb(180, 9, 9);
+    }
+
+    #check:checked~.menu {
+        display: block;
+    }
+    
+    #aboutCoffee .cofeimgPara{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #aboutCoffee .cofeimgPara .cofeImg{
+        width: 55%;
+        margin-bottom: -80px;
+    }
+
+    #aboutCoffee .cofeimgPara .cofePara{
+        width: 60%;
+        margin-bottom: 50px;
+
+    }
+
+    #ourMenu{
+        display: flex;
+       justify-content: center;
+       flex-direction: column;
+    }
+
+    #ourMenu .sectionHead2{
+        margin-bottom: 50px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+    #ourMenu .menuItems{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content:center;
+        margin-top: 100px;
+        /* margin-left: 30px; */
+        
+    }
+
+    #ourMenu .menuItems .bakeryItems{
+        width :400px;
+        margin: 50px;
+    }
+
+    #doorSteps .doorstepFoods{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-top: 30px; */
+    }
+
+    #doorSteps .doorstepFoods .deliveryFood{
+        width: 400px;
+        margin-bottom: 320px;
+    }
+
+    #doorSteps .orderNow{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #doorSteps .orderNow a{
+        padding: 20px;
+    }
+    footer .foot-panel1{
+        height: 90px;
+    }
+    footer .foot-panel2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 1290px;
+
+
+    }
+
+    footer .foot-panel2 #brochure{
+        width: 70%;
+    }
+
+    footer .foot-panel2 ul{
+        width: 70%;
+    }
+
+    footer .foot-panel2 .gallery{
+        width: 70%;
+    }
+
+    footer .foot-panel2 .gallery .galItems{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+    
+    /* h1{
+        color: rgb(115, 255, 0);
+    } */
+    p{
+        font-size: 1.5rem;
+        line-height: 1.75;
+        font-weight: 600;
+    }
+    /* .container{
+        flex-wrap: wrap;
+    }
+    footer{
+        display: flex;
+        flex-wrap:wrap;
+        width: 100%;
+    } */
+}
+
+@media(max-width:760px){
+   #firstPanel .heroSection .heroHeading h1{
+    font-size: 2.5rem;
+   }
+}
+
+@media(max-width:1401px){
+
+    nav {
+        width: 100%;
+    }
+
+    nav .menu{
+        margin-left: 0px;
+        
+    }
+
+}
+
+@media(max-width:1120px) and (min-width:993px){
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .menu{
+        margin-left: 400px;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media(max-width:1401px) and (min-width:1121px){
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .menu{
+        margin-left: 300px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+}
+
+@media(max-width:1440px) and (min-width:1401px){
+    
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .menu{
+
+       width: 70%;
+       margin-right:30px ;
+
+    }
+
+    nav .menu a{
+        margin-right: 8px;
+    }
+}
+
+@media(max-width:1016px) and (min-width:761px){
+
+    #firstPanel .heroSection .heroHeading h1{
+        font-size: 2.8rem;
+       }
+}
